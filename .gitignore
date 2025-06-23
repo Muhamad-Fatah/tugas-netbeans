@@ -1,0 +1,38 @@
+# Folder build
+/build/
+/dist/
+
+# Folder private NetBeans (pengaturan lokal yang tidak dibutuhkan developer lain)
+/nbproject/private/
+
+# File backup NetBeans
+**/*~ 
+
+# File log
+*.log
+
+# File kelas hasil kompilasi
+*.class
+
+# Cache NetBeans
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+/.netbeans/
+
+# File sistem
+.DS_Store
+Thumbs.db
+
+# File konfigurasi IDE lainnya (jika menggunakan IDE lain)
+.idea/
+*.iml
+
+# File dari Maven atau Gradle (jika ada)
+target/
+.gradle/
+build/
+
+# File dari sistem operasi
+*.swp
+*.swo
